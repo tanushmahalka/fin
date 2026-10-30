@@ -1,0 +1,16 @@
+node_modules
+.wrangler
+dist
+.dev.vars
+.dev.vars.*
+cli/dist
+*.log
+.DS_Store
+samples/
+build-real/
+
+# Your deployment's real config and data never belong in git
+wrangler.private.jsonc
+*.sql
+!migrations/*.sql
+.finance/
